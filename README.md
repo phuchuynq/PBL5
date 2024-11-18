@@ -1,7 +1,7 @@
 # Hệ thống máy chấm công tích hợp mở cửa tự động
 
 ## Vai trò trong dự án
-Tôi là người chịu trách nhiệm phát triển hệ thống, bao gồm lập trình, triển khai phần cứng, và tích hợp dữ liệu với Google Sheets.
+Lập trình code C, viết Google App Script, triển khai phần cứng, và tích hợp dữ liệu với Google Sheets.
 
 ## Chi tiết về phần cứng và phần mềm
 
