@@ -1,6 +1,6 @@
 #include <SPI.h>
 #include <MFRC522.h>
-#include <ESP32Servo.h>  // Thư viện Servo
+#include <ESP32Servo.h>  
 
 #define SS_PIN 16
 #define RST_PIN 17
@@ -25,8 +25,8 @@ struct Student {
 Student students[MAX_STUDENTS];
 int studentCount = 0;
 int runMode = 2;
-const int btnIO = 15;
-const int buttonPin = 14;  // Chân GPIO cho nút bấm mới
+const int btnIO = 15;  // Chân GPIO cho nút bấm đảo trạng thái VÀO/RA
+const int buttonPin = 14;  // Chân GPIO cho nút bấm điều khiển đóng mở cửa
 bool buttonState = HIGH;   // Trạng thái ban đầu của nút bấm
 bool btnIOState = HIGH;
 unsigned long timeDelay = millis();
@@ -41,7 +41,6 @@ const int servoPin = 33; // Chân GPIO điều khiển động cơ servo
 const int openAngle = 90; // Góc mở cửa
 const int closeAngle = 0; // Góc đóng cửa
 
-// * Thêm phần khai báo cảm biến hồng ngoại *
 #define IR_SENSOR_PIN 32  // Chân GPIO cho cảm biến hồng ngoại
 
 void setup() {
