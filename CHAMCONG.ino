@@ -87,7 +87,6 @@ void loop() {
     buttonState = HIGH; // Cập nhật lại trạng thái khi nút bấm không được nhấn
   }
 
-  // Phần còn lại của hàm loop() không thay đổi
   if (millis() - timeDelay2 > 500) {
     readUID();
     timeDelay2 = millis();
