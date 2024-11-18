@@ -25,3 +25,5 @@ Môi trường làm việc hiện nay mỗi công ty, tổ chức đều phải 
 
 ## Kinh nghiệm tích lũy từ dự án
 Tôi đã học được cách tích hợp phần cứng và phần mềm để tạo ra một hệ thống hoàn chỉnh, từ lập trình ESP32 đến viết script cho Google Sheets. Tôi cũng hiểu rõ hơn về việc quản lý thời gian xử lý và đảm bảo tính ổn định cho hệ thống. Bên cạnh đó, việc làm việc với các cảm biến và module khác nhau giúp tôi cải thiện kỹ năng xử lý và tích hợp hệ thống an toàn.
+
+[Xem chi tiết báo cáo về dự án](https://drive.google.com/drive/folders/13U9VXYe0Kk4yexsRuw0DIJmfHk39w_uz?dmr=1&ec=wgc-drive-globalnav-goto)
