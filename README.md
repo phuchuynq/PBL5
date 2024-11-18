@@ -1,5 +1,10 @@
 # Hệ thống máy chấm công tích hợp mở cửa tự động
 
+## Mô tả hoạt động của hệ thống
+Hệ thống hoạt động như sau: Khi một nhân viên quét thẻ RFID, UID của thẻ sẽ được kiểm tra với cơ sở dữ liệu trên Google Sheets. Nếu thẻ hợp lệ, cửa sẽ mở ra và trạng thái vào của nhân viên được cập nhật vào bảng Google Sheet. Sau khoảng thời gian cố định (5 giây), cửa sẽ tự động đóng lại. Nếu thẻ không hợp lệ, cửa sẽ không mở đồng thời phát loa cảnh báo và không có thay đổi nào trong hệ thống. Cảm biến hồng ngoại giúp phát hiện nếu có ai đứng giữa cửa, ngăn không cho cửa đóng lại cho đến khi lối đi thông thoáng.
+
+## Vì sao tôi làm dự án này, tính khả thi của dự án
+
 ## Vai trò trong dự án
 Lập trình code C, viết Google App Script, triển khai phần cứng, và tích hợp dữ liệu với Google Sheets.
 
