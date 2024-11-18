@@ -21,7 +21,7 @@ Lập trình code C, viết Google App Script, triển khai phần cứng, và t
 - Code Arduino được thiết kế để xử lý quét thẻ, điều khiển động cơ servo, và giám sát thời gian vào/ra theo yêu cầu dự án.
 
 ## Vì sao làm dự án này, tính khả thi của dự án
-Môi trường làm việc hiện nay mỗi công ty, tổ chức đều phải có máy chấm công nhân viên để căn cứ vào đó trả mức lương tương đương với mức độ cống hiến và cũng để giải quyết nhu cầu giám sát việc ra vào của nhân viên một cách tự động và chính xác một cách tự động. Tính khả thi của dự án cao vì việc sử dụng RFID và ESP32 là những công nghệ phổ biến, chi phí thấp nhưng mang lại hiệu quả cao tương đương. Việc tích hợp với Google Sheets cũng giúp dễ dàng quản lý và truy cập dữ liệu từ xa.
+Môi trường làm việc hiện nay mỗi công ty, tổ chức đều phải có máy chấm công nhân viên để căn cứ vào đó trả mức lương tương đương với mức độ cống hiến và cũng để giải quyết nhu cầu giám sát việc ra vào của nhân viên một cách tự động và chính xác. Tính khả thi của dự án cao vì việc sử dụng RFID và ESP32 là những công nghệ phổ biến, chi phí thấp nhưng mang lại hiệu quả cao tương đương. Việc tích hợp với Google Sheets cũng giúp dễ dàng quản lý và truy cập dữ liệu từ xa.
 
 ## Kinh nghiệm tích lũy từ dự án
 Tôi đã học được cách tích hợp phần cứng và phần mềm để tạo ra một hệ thống hoàn chỉnh, từ lập trình ESP32 đến viết script cho Google Sheets. Tôi cũng hiểu rõ hơn về việc quản lý thời gian xử lý và đảm bảo tính ổn định cho hệ thống. Bên cạnh đó, việc làm việc với các cảm biến và module khác nhau giúp tôi cải thiện kỹ năng xử lý và tích hợp hệ thống an toàn.
